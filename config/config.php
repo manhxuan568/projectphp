@@ -15,7 +15,7 @@ date_default_timezone_set("Asia/Ho_Chi_Minh");
  */
 
 
-$config['base_url'] = "http://localhost/1.unitop-php/back-end/project/ismart.com/";
+$config['base_url'] = "https://manhxuan568.github.io/projectphp/";
 
 
 $config['default_module'] = 'home';
