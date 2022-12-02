@@ -1,0 +1,20 @@
+
+/*STYLE*/
+@import '../public/css/import/fonts.css';
+@import '../public/css/import/global.css';
+@import '../public/css/import/header.css';
+@import '../public/css/import/footer.css';
+@import '../public/css/import/home.css';
+@import '../public/css/import/category_product.css';
+@import '../public/css/import/blog.css';
+@import '../public/css/import/detail_product.css';
+@import '../public/css/import/detail_blog.css';
+@import '../public/css/import/cart.css';
+@import '../public/css/import/checkout.css';
+/*WARNING*/ /*mình đã không chịu suy nghĩ vấn đề mình đang gặp phải là gì bài đó đang bị làm sao mà mk lại hoang mang lại 
+chỉ nghĩ cách tìm những bài bạn khác xem có lỗi này hay không để rồi copy bài của bạn để sử lý mà không tìm hiểu vấn đề 
+mình đang gặp phải là gì đó làm cho mình không thể nào tiến bộ lên được. Đó là lời cảnh báo đối với mình.*/
+.error{
+    color: red;
+    font-weight: 600;
+}

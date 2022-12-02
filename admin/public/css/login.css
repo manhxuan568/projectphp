@@ -1,0 +1,43 @@
+body{
+    font-size:14px;
+    line-height:23px;
+    font-family:arial;
+    background:#a0c7da; 
+}
+#wrapper{
+    width:250px;
+    margin:150px auto;
+    border-radius:3px;
+    background:#fbfeff;
+    padding:30px 20px 20px 20px;
+    text-align: center;
+}
+#form-login input{
+    width:100%;
+}
+#form-login #username,#password{
+    padding: 8px 9px;
+    border: none;
+    margin-bottom: 10px;
+    background:#d2d7da;
+}
+#btn-login{
+    border: none;
+    padding: 5px 0px;
+    color: #fff;
+    background: #007bff;
+    cursor:pointer;
+}
+#head-form{
+    font-size: 23px;
+    color: #908e8b;
+    margin-bottom: 23px;
+}
+#lost-pass{
+    text-decoration:underline;
+    padding-top:10px;
+    
+}
+p.error{
+    color: red;
+}

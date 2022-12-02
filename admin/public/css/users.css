@@ -1,0 +1,21 @@
+ul.pagging{
+    list-style:none;
+    float:right;
+    margin-top:30px;
+}
+ul.pagging li{
+    float:left;
+    padding:0px 2px;
+}
+ul.pagging li a{
+padding: 5px 10px;
+color:#000;
+border:1px solid #BBB;
+ text-decoration:none;
+}
+ul.pagging li.active a{
+    color:red;
+    border:1px solid red;}
+ul.pagging li.active1 a{
+    color:red;
+    }

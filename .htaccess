@@ -1,0 +1,31 @@
+RewriteEngine On
+
+#Các Modules
+#home
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?
+#page
+RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=page&action=contact&id=$2
+RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=page&action=about&id=$2
+
+#post
+RewriteRule ^([a-zA-Z0-9_-]+).html$ index.php?mod=post&action=list_post&slug=$1
+RewriteRule ^Bai-viet/([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=post&action=detail_blog&id=$2
+
+#product
+RewriteRule ^Danh-sach/([a-zA-Z0-9_-]+).html$ index.php?mod=product&action=category_product&slug=$1
+RewriteRule ^Danh-muc/([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=product&action=danh_muc&id=$2
+RewriteRule ^San-pham/([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=product&action=product_detail&id=$2
+
+#cart
+RewriteRule ^Gio-hang/([a-zA-Z0-9_-]+).html$ index.php?mod=cart&action=show
+RewriteRule ^Dat-hang/([a-zA-Z0-9_-]+)$ index.php?mod=cart&action=order_success&slug=$1
+#checkout
+RewriteRule ^Thanh-toan/([a-zA-Z0-9_-]+).html$ index.php?mod=cart&action=checkout
+#add cart
+RewriteRule ^them-san-pham/([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=cart&action=add&id=$2
+RewriteRule ^buy-now/([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=cart&action=add&id=$2
+
+#tìm kiếm
+RewriteRule ^Search/([a-zA-Z0-9_-]+)$ index.php?mod=search_filter&action=filter
+
+
